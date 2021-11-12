@@ -32,6 +32,8 @@ int main() {
     aris.setVj(v[i+1]);
     ar.push_back(aris);
   };
+  
+  cout<<"Verificacion de aristas: "<<endl;
 
   for (int i = 0; i < ar.size(); i++){
     cout<<"Arista vertice prev.: "<< ar[i].getVi().getDato()<<endl;
